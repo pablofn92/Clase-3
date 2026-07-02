@@ -11,7 +11,6 @@ padding: 0;
 }
 
 header {
-    
     padding: 20px;
  border-bottom: 2px solid #3d6797;
 
@@ -27,6 +26,7 @@ body {
     
 }
 .banner {
+    display: flex;
     width: 25%;
     flex-direction: left;
     display: left;
@@ -51,23 +51,40 @@ article {
 
 }
 
-
-figcaption {
-text-align: center;
-    
+.logo   {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
 }
 ul {
-
-    padding: 20px;
+    flex-grow: 1;
+    display: flex;
     list-style:georgian;
+    list-style-position: inside;
     font-size: 2rem;
     font-family: "EB Garamond", serif;
     color: #79c3ee;
-    border-bottom: 2px solid #3d6797;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.navbar {
+    
     display: flex;
-    justify-content:space-between;
+    padding: 20px;
+    border-bottom: 2px solid #3d6797;
     
 }
+
+figcaption {
+text-align: left;
+    
+}
+
+
 
 h1 {
     padding : 20px;
