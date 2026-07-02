@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*font-family: "Cinzel", serif;;*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*  font-family: "EB Garamond", serif; */
+* {
+    
+margin: 0;
+padding: 0;
+}
+
+header {
+    
+    padding: 20px;
+ border-bottom: 2px solid #3d6797;
+
+}
+
+
+body {
+    gap: 20px;
+    font-family: "EB Garamond", serif;
+    background-color: #0f0f0f;
+    margin: 20px;
+    padding: 50px;
+    
+}
+.banner {
+    width: 25%;
+    flex-direction: left;
+    display: left;
+    align-items: left;  
+    justify-content: left;
+    margin: 0 10px;
+    padding: 0;
+
+}
+
+section    {
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+article {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+}
+
+
+figcaption {
+text-align: center;
+    
+}
+ul {
+
+    padding: 20px;
+    list-style:georgian;
+    font-size: 2rem;
+    font-family: "EB Garamond", serif;
+    color: #79c3ee;
+    border-bottom: 2px solid #3d6797;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+h1 {
+    padding : 20px;
+    font-family: "Cinzel", serif;
+    color: #FBFBFB;
+    text-align: center; 
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+h2,h3 {
+    font-family: "Cinzel", serif;
+    color: #79c3ee;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+p {
+    color: #79c3ee;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 10px;
+    
+}
+
+.fondo {
+    background-image: url(../assets/img/hollow.jpeg);
+    background-size: cover;
+
+
+}
+.secondary {
+ background-image: url(../assets/img/hollowknight.jpg);
+ background-size: cover;
+
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
